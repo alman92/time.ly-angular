@@ -36,8 +36,8 @@ function Router($stateProvider){
     controllerAs: "vm"
   })
   .state("goalShow", {
-    url: "goals/:id",
-    templateUrl: "/js/ng-views/show/html",
+    url: "/goals/:id",
+    templateUrl: "/js/ng-views/show.html",
     controller: "goalsShowController",
     controllerAs: "vm"
   });
